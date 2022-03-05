@@ -98,8 +98,8 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-expression
-
+// expression
+console.log('expression')
 
 ////////////////// PROBLEM 8 ////////////////////
 
@@ -112,10 +112,10 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-arrow
+// arrow
 // declaration
 // expression
-
+console.log('arrow')
 /*
   Rewrite exclaimTwo to be a single line.
   Call your new function exclaimThree
@@ -137,8 +137,9 @@ function exclaimFour(str) {
 }
 
 // arrow
-declaration
+// declaration
 // expression
+console.log('declaration')
 
 ////////////////// PROBLEM 10 ////////////////////
 /*
@@ -355,7 +356,7 @@ const arrTest = (arr)=>{
   let ascending = null
   
   for(i=0;i<arr.length;i++){
-    if(arr[i] !== i){
+    if(arr[i] > arr[i+1]){
       return ascending = false
     }else{
       ascending = true
